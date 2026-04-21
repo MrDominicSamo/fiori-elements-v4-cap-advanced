@@ -5,7 +5,7 @@
 <!-- Please include SEO-friendly description -->
 The app is based on [CAP-SFLIGHT](https://github.com/SAP-samples/cap-sflight) Model with some small adjustments. 
 
-### Exercise Done:
+### Exercisess Done:
 
 *  Sequence of Features (Exercises)
 
@@ -39,6 +39,8 @@ The app is based on [CAP-SFLIGHT](https://github.com/SAP-samples/cap-sflight) Mo
 *  Add Travel Status, Total Price, and the Deduct Discount Action to the Header Area
 
 *  Add the Bullet Micro Chart and the Progress Indicator to the Header Area
+
+*  Shaping the Header Area of the Object Page
 
 ## License
 Copyright (c) 2026 Dominic Samo. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSE) file.
