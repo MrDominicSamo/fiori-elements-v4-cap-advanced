@@ -1,4 +1,3 @@
-
 # Developing an SAP Fiori Elements App Based on a CAP OData V4 Service
 
 ## Description
