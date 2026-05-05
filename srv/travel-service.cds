@@ -9,7 +9,12 @@ service TravelService @(path:'/processor') {
     { grant: ['*'], to: 'admin'}
   ])
 
+  // Function import used in Controller Extension 'PassengerOPExtend.js' to calculate booking data
+  function getBookingDataOfPassenger(CustomerID: String) returns my.BookingData;
+
   entity SupplementScope as projection on my.SupplementScope;
+
+  entity Booking as projection on my.Booking;
 
   // Travel: To avoid number formatting of the travel ID, make it a String
   entity Travel as projection on my.Travel {
